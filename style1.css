@@ -1,0 +1,173 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(223, 223, 223);
+  width: 100%;
+  min-height: 100vh;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  width: 100%;
+  background-color: rgba(56, 2, 100, 0.671);
+  min-height: 10vh;
+}
+nav div {
+  display: inline-block;
+}
+nav a {
+  font-weight: 700;
+  padding: 10px;
+  text-decoration: none;
+  font-size: large;
+  font-weight: bolder;
+  color: rgb(250, 250, 250);
+  margin: 10px;
+  border-radius: 32px;
+}
+nav a:hover {
+  background-color: rgb(131, 139, 139);
+}
+nav img {
+  width: 55px;
+}
+.boton {
+  display: none;
+}
+.seccion1 {
+  padding: 25px;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  margin: 20px 0px;
+  text-align: center;
+}
+.seccion1 img {
+  height: 450px;
+  width: 800px;
+  object-fit: cover;
+}
+.seccion2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(226, 233, 232);
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  margin-bottom: 35px;
+}
+
+.seccion2 div {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  gap: 10px;
+}
+.seccion2 img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.divabout {
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.divabout p {
+  width: 400px;
+  text-align: left;
+}
+.divabout img {
+  width: 300px;
+  height: 300px;
+  margin-right: 80px;
+  object-fit: cover;
+}
+.divabout div {
+  margin: 10px 0px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(226, 233, 232);
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.contacto {
+  text-align: center;
+}
+.linksdiv {
+  display: flex;
+  justify-content: space-between;
+}
+.datos {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.texto {
+  margin-bottom: 25px;
+}
+.contacto img {
+  width: 800px;
+  height: 600px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.tabla {
+  width: 60rem;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(226, 233, 232);
+}
+.tabla td,.tabla th{
+  line-height: 3;
+  background-color: rgb(226, 233, 232);
+  padding: 10px;
+  margin: 10px;
+}
+#mainbeneficios {
+  display: flex;
+  justify-content: center;
+}
+.beneficios {
+  padding: 20px;
+  margin-bottom: 25px;
+  display: flex;
+  width: 70vw;
+  align-items: center;
+  background-color: rgb(226, 233, 232);
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.beneficios img {
+  height: 200px;
+  width: 200px;
+  margin-right: 80px;
+  object-fit: cover;
+}
+.beneficios div {
+  display: flex;
+}
+.divlistas {
+  display: flex;
+  flex-direction: column;
+}
