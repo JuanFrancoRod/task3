@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style1.css" />
+    <!-- <link rel="stylesheet" href="./style2.css" /> -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="../logo.png" />
+    <title>Raffle</title>
+  </head>
+  <body>
+    <nav>
+      <div>
+        <a href="../index.html">Home</a>
+        <a href="./about.html">About</a>
+        <a href="./contact.html">Contact</a>
+        <a href="./schedule.html">Schedule</a>
+        <a href="./benefits.html"> Benefits</a>
+        <a href="#"> Raffle</a>
+      </div>
+      <img src="../logo.png" alt="logo" />
+    </nav>
+    <main>
+      <div>
+        <h1>Olympus Gym</h1>
+        <h3>Every month in this section you can participate in a raffle.</h3>
+      </div>
+      <div class="divraffle">
+        <div class="imgraffle">
+          <img src="../Gym/images/together.jpg" alt=" formimg" />
+          <img src="../Gym/images/image.jpg" alt="formimg2" />
+        </div>
+
+      
+          <form class="formulario" action="./show_data.html">
+            <fieldset class="raffle1">
+              <legend class="leyenda">
+                Participate in our raffle for a month of personalized training
+              </legend>
+              <label class="legend-1" id="first-name">First Name</label>
+              <input class="text-input" type="text" name="First Name" /><br />
+              <label class="legend-1" id="last-name">Last Name</label>
+              <input class="text-input" type="text" name="Last Name" />
+              <br />
+              <label class="legend-1" id="email">Email</label>
+              <input class="text-input" type="text" name="Email" />
+            </fieldset>
+            <fieldset class="raffle2">
+              <label class="legend-1" id="gender">Choose Gender</label>
+              <select class="select-input" name="gender">
+                <option value="">Choose Your Gender</option>
+                <option value="f">female</option>
+                <option value="m">male</option>
+                <option value="x">others</option>
+              </select>
+            </fieldset>
+            <fieldset class="raffle3">
+              <label class="legend-1" id="country">Country</label>
+              <select class="select-input" name="country">
+                <option value="">Country</option>
+                <option value="arg">Argentina</option>
+                <option value="col">Colombia</option>
+                <option value="cl">Chile</option>
+                <option value="uyu">Uruguay</option>
+                <option value="es">España</option>
+              </select>
+            </fieldset>
+            <fieldset class="raffle4">
+              <legend class="legend-1">Payment Options</legend>
+              <div class="input-4">
+                <label class="text-4" id="cash">Cash</label>
+                <input type="radio" name="money" value="cash" />
+              </div>
+              <div class="input-4">
+                <label class="text-4" id="credit-card">Credit Card</label>
+                <input type="radio" name="money" value="cc" />
+              </div>
+              <div class="input-4">
+                <label class="text-4" id="debit-card">Debit Card</label>
+                <input type="radio" name="money" value="dc" />
+              </div>
+            </fieldset>
+            <fieldset class="raffle5">
+              <legend class="legend-1">Services</legend>
+              <textarea name="serv" id="serv" cols="30" rows="10"></textarea>
+            </fieldset>
+            <fieldset class="raffle6">
+              <label for="conditions">Accept Terms and Conditions...</label>
+              <input
+                type="checkbox"
+                name="temscondition"
+                id="conditions"
+                value="Accept"
+              />
+            </fieldset>
+            <input class="summit" type="submit" value="Send" />
+          </form>
+        
+      </div>
+    </main>
+
+    <footer class="mapa">
+      <iframe
+        
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6356401.189028048!2d-74.10198310520688!3d-38.93057071847415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x960c69220df16cfd%3A0xbde84fb8c586373f!2sOLYMPUS%20GYM!5e0!3m2!1ses-419!2sar!4v1678995231671!5m2!1ses-419!2sar"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </footer>
+  </body>
+</html>
